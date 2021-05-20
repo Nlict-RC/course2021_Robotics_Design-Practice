@@ -69,6 +69,7 @@ $ rosrun calib_imu imu_calib
 ```bash
 # 注意，以下命令二选一
 $ rosrun topic_tools relay /scan /scan_emma_nav_front
+$ rosrun topic_tools relay /scan_emma_nav_front /scan
 ```
 
 3. 打开urg节点，在ssh的界面上输入以下命令
